@@ -650,8 +650,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 600;
+    color: #364577 !important;
 }
 
 .container {
@@ -830,6 +830,7 @@ h4 {
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.webp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1046,3 +1047,13 @@ h4 {
         text-align: center;
     }
 }
+.link-fine  a{
+    color: #FFF !important;
+    font-size: 18px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .link-fine  li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
