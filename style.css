@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -508,6 +508,9 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding-top: 28px;
 }
 
 .scrollToTop {
@@ -650,8 +653,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 600;
+    color: #364577 !important;
 }
 
 .container {
@@ -816,20 +819,21 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta%20made%20sign.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta%20made%20sign%20orange.webp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1046,3 +1050,13 @@ h4 {
         text-align: center;
     }
 }
+.link-fine  a{
+    color: #FFF !important;
+    font-size: 18px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .link-fine  li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
